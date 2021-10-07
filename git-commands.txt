@@ -1,3 +1,6 @@
+Git Commands to push the code to remote repository
+--------------------------------------------------
+
 1. git init - To initialize the repository 
 2. git remote add origin https://github.com/UmamaheshMaxwell/html5-css3-basics.git - Connect your local repository to remote repository
 3. git status - To check the status of the files to see if they are created /modified
