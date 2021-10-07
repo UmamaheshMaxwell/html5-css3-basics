@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <title>HTML Forms</title>
+</head>
+<body>
+    <div class="container">
+        <h1>User Form Controls</h1>
+       <form>
+            <label >FirstName</label>
+            <input class="form-control w-50" type="text" name="fname"> <br>
+            <label>LastName</label>
+            <input class="form-control w-50" type="text" name="lname"> <br>
+            <label>Password</label>
+            <input class="form-control w-50" type="password" name="password"> <br>
+            <label> Confirm Password</label>
+            <input class="form-control w-50" type="password" name="cpassword"> <br>     
+            <label> Comments</label>   
+            <textarea class="form-control w-50"></textarea><br>
+            <label> Select all that apply</label><br><br>  
+            <input type="checkbox" class="form-check-input" name="maths"> Maths
+            <input type="checkbox" class="form-check-input" name="physics"> Physics
+            <input type="checkbox" class="form-check-input" name="chemistry"> Chemistry <br><br>
+            <label> Select Country</label><br><br>
+            <input type="radio" name="country" value="1"> Bharat
+            <input type="radio" name="country" value="2"> Japan 
+            <input type="radio" name="country" value="3">  Australia <br><br>
+            <label> Select Any Device</label><br><br>
+            <select class="form-select w-50">
+                <option value="">Select</option>
+                <option value="1">Desktop</option>
+                <option value="2">Laptop</option>
+                <option value="3">Mobile</option>
+            </select> <br>
+            <label> Select State</label><br><br>
+            <select class="form-select w-50" multiple>
+                <option value="">Select</option>
+                <option value="1">Delhi</option>
+                <option value="2">Mumbai</option>
+                <option value="3">Bengaluru</option>
+                <option value="3">Hyderabad</option>
+                <option value="3">Chennai</option>
+            </select>
+            <br><br>
+            <label> Select File</label><br><br>
+            <input type="file" class="form-control w-50" accept="application/pdf">
+            <input type="file" class="form-control w-50" accept="application/msword">
+            <input type="file" class="form-control w-50" accept=".csv">
+            <input type="file" class="form-control w-50" accept="application/vnd.ms-excel">
+            <input type="file" class="form-control w-50" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+            <br><br>
+            <input type="button" class="btn btn-primary" value="Submit">
+            <input type="reset" class="btn btn-warning" value="Update">
+            <input type="submit" class="btn btn-danger" value="Delete">
+            <input type="image" value="imageButton" src="https://source.unsplash.com/random/200x200?sig=incrementingIdentifier">
+            <input type="hidden" name="page" value="100">
+       </form> 
+       <br><br><br><br><br><br>
+    </div>
+</body>
+</html>
