@@ -1,0 +1,5 @@
+Alt + z - Word Wrap 
+Alt + Shift + Down Arrow - duplicate the content
+Ctrl + D - Select similar content
+lorem10 - to diplay 10 random words
+lorem10*2 - to diplay 10 random words in 2 lines

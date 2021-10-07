@@ -1,0 +1,100 @@
+HTML - HYPER TEXT MARKUP LANGUAGE
+
+ - Used to create Web Pages
+ - Widely used on Web
+ - It is just a markup language not a programming language 
+
+HYPER TEXT - Text with in Text
+           - Way to link two or more web Pages
+           - create a link to move to new webpages 
+
+
+Features 
+--------
+1. Simple and easy to use 
+2. Platform Independent ( Windows, Mac, Linux)
+3. Case Insensitive Language
+4. We can write all the markup code in small case for the better readability 
+
+Building Blocks of HTML
+-------------------------
+Tags - Surrounds the content and apply meaning to it. we write using < and > brackets 
+Attributes - provides extra information about the elements
+
+ <h1 class="header" id="headId" >Hello World</h1>
+
+ class and id are called attributes 
+ attributes always use double quotes 
+
+Heading Tags - <h1>, <h2>,<h3>,<h4>,<h5>,<h6> 
+             - <b>
+             - <i>
+             - <u>
+
+Meta Tags - DOCTYPE, title, link, meta, style
+
+Text Tags - <p>, <h1>, <h2>,<h3>,<h4>,<h5>,<h6>,<strong> 
+
+Link Tags - <a> 
+
+Image Tag - <image>
+
+List Tags - <ul> , <ol> , <li>
+
+Table Tags - Table, Thead, Tbody, Th, Tr, Td
+
+Form Tags - Form, Input (textbox, radio, checkbox), textarea, select 
+
+Scrit Tag - <script>
+
+Space Tag - &nbsp; ( Non Breaking Space)
+               
+HTML class
+-----------
+CSS - Cascading Style Sheets 
+      
+Why to Use - To format the layout of the webpages
+
+What we can do - With CSS we can contaorl the color, font, size of the text, 
+                 element position, backgrouns images, bg color
+
+CSS can be added to HTML socument in 3 ways 
+
+Inline - by using "style attribute" inside HTML elements
+
+Internal - by using "style element" in <head> section
+
+External - By Using <link> elements to link external CSS
+
+BLE - Block Level element
+-----------------------------
+
+- Ocuupies entire space of the parent 
+- always starts on new line and takes up full width available 
+
+e.g. H1- H6 , table, p, div, form, video, hr, header, footer
+
+IE - Inline Element 
+
+ - It doesn't start on a new line
+ - only takes up as much width as necessary 
+ - Can not contain a block-level element
+
+e.g. span, a, button, supscript, subscript, textarea, label, b, string, img
+
+CSS3
+-----
+1. Bring Superios styling to HTML
+2. Multiple Device Compatibility
+3. Follows Global WebStandrads
+4. Easy maintainance 
+
+
+Combinator Selectors
+--------------------
+Which explains the relationship between Selectors
+
+1. descendent selector (space)
+2. child selector (>)
+3. adjacent selector + 
+4. general sibling selctor (~)
