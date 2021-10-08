@@ -1,0 +1,6 @@
+@import url('./home.css');
+
+h1 {
+    color: white;
+    background-color: crimson;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Level Elements</title>
+    <style>
+        .block-level {
+            background-color: gray;
+        }
+
+        .inline {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="block-level">This a division, which blovk level element</div>
+    <p class="block-level">This is paragraph</p>
+
+    <label class="inline">Hello</label> 
+    <button class="inline">Click Me</button>
+
+    <p>
+        <label for="">This is Inline within block level</label>
+    </p>
+    <label>
+        <p>This is block level with in inline elements</p>
+        <div>This is Div</div>
+        <h1>This is Header</h1>
+    </label>
+    <p style="background-color: yellow;">
+        This is para
+        <h1>This is block-level with in block level</h1>
+    </p>   
+</body>
+</html>
